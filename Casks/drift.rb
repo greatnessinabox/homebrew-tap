@@ -14,22 +14,22 @@ cask "drift" do
   on_macos do
     on_intel do
       url "https://github.com/greatnessinabox/drift/releases/download/v#{version}/drift_darwin_amd64.tar.gz"
-      sha256 "46a3993da69e9292016720cea5282e1107ace7fcab30386e27ba35f40a189afe"
+      sha256 "570d293276f518dfb203939b13bf946cb3b9fed658c98b0e1c5887e7bacc7762"
     end
     on_arm do
       url "https://github.com/greatnessinabox/drift/releases/download/v#{version}/drift_darwin_arm64.tar.gz"
-      sha256 "46ac92fa82eaf6117d741da92b811732889fdf138c3a90fe539e9852c2e9c68d"
+      sha256 "be7c6106f776c134978543780491b1d456c01c137b919ac72048abbf06425383"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/greatnessinabox/drift/releases/download/v#{version}/drift_linux_amd64.tar.gz"
-      sha256 "ab54b9de944be9d2753ec261f2fc6f0d5500430933f6015b8583f473a28c8f47"
+      sha256 "25ab1977581ed7da68cfb8c1e9b37018a9694b07f1d31ed48a72205bbc50f298"
     end
     on_arm do
       url "https://github.com/greatnessinabox/drift/releases/download/v#{version}/drift_linux_arm64.tar.gz"
-      sha256 "928075be6a92f3ad4cff17bf6d8c94d4c613377692d504f7c6adb32ed75e58ed"
+      sha256 "f44413ee9c62259ef765fc03696cb4afc040f7f65f22dea08b7e07bada080b50"
     end
   end
 
