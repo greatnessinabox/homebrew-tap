@@ -3,7 +3,7 @@ cask "drift" do
   name "drift"
   desc "Real-time polyglot codebase health dashboard"
   homepage "https://github.com/greatnessinabox/drift"
-  version "1.0.0"
+  version "1.0.1"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "drift" do
   on_macos do
     on_intel do
       url "https://github.com/greatnessinabox/drift/releases/download/v#{version}/drift_darwin_amd64.tar.gz"
-      sha256 "570d293276f518dfb203939b13bf946cb3b9fed658c98b0e1c5887e7bacc7762"
+      sha256 "b386b1483c14fd464d6403f4b527a696be05a1eff00c3c818cb53ad64fc23091"
     end
     on_arm do
       url "https://github.com/greatnessinabox/drift/releases/download/v#{version}/drift_darwin_arm64.tar.gz"
-      sha256 "be7c6106f776c134978543780491b1d456c01c137b919ac72048abbf06425383"
+      sha256 "b81b450186404c584a3e9513ddcf9ba01b43f74b8c58d921607036cd59184e3c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/greatnessinabox/drift/releases/download/v#{version}/drift_linux_amd64.tar.gz"
-      sha256 "25ab1977581ed7da68cfb8c1e9b37018a9694b07f1d31ed48a72205bbc50f298"
+      sha256 "90c73900c192150404cd4d874f2760d4747b6855e22793de216258289661cc54"
     end
     on_arm do
       url "https://github.com/greatnessinabox/drift/releases/download/v#{version}/drift_linux_arm64.tar.gz"
-      sha256 "f44413ee9c62259ef765fc03696cb4afc040f7f65f22dea08b7e07bada080b50"
+      sha256 "5a37b237e8ab109c9530133df30f41044ddec88a495162bb57bea6126d2ebb25"
     end
   end
 
